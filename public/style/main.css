@@ -23,11 +23,11 @@ main {
 .card-body {
     box-sizing: border-box;
     background-color: #1f2630;
-    width: 450px;
+    width: 425px;
     /* height: 50vh; */
-    border-radius: 8%;
+    border-radius: 6%;
     margin: auto;
-    padding: 30px 40px;
+    padding: 30px;
 }
 
 .star-bubble {
@@ -42,18 +42,19 @@ main {
 
 h1, h2 {
     color: hsl(0, 0%, 100%);
-    font-size: xx-large;
+    font-size: 1.7rem;
     margin-bottom: 10px;
 }
 
 p {
     line-height: 1.5rem;
+    margin-bottom: 30px;
 }
 
 button {
     display: block;
     margin: auto;
-    margin-top: 25px;
+    margin-top: 30px;
     appearance:none;
     height: 50px;
     width: 350px;
@@ -75,9 +76,9 @@ button:hover {
 
 input[type="radio"] {
     appearance: none;
+    
     /* background-color: hsl(213, 19%, 18%);
-    height: 50px;
-    width: 50px;
+    
     border-radius: 50%; 
     transition: 0.1s; */
 }
@@ -102,8 +103,10 @@ Keep fixing the radio buttons
     height: 50px;
     width: 50px;
     border-radius: 50%;
-    margin: 0 10px;
+    margin: 0 9px;
     transition: 0.1s;
+    line-height: 50px;
+    
 }
 
 .radio-btn:hover {
@@ -112,19 +115,18 @@ Keep fixing the radio buttons
     cursor: pointer;
 }
 
-.radio-btn:checked {
+/* .radio-btn:checked {
     background-color: hsl(217, 12%, 63%);
     height: 50px;
     width: 50px;
     border-radius: 50%;
+} */
+
+input[type="radio"]:checked {
+    background-color: hsl(217, 12%, 63%);
 }
 
-input[type="radio"]:checked + label {
-    background-color: hsl(217, 12%, 63%);
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-}
+
 
 /* .rating-number {
     text-align: center;
