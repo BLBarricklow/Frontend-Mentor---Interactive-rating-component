@@ -24,6 +24,7 @@ main {
     box-sizing: border-box;
     background-color: #1f2630;
     width: 425px;
+    height: 425px;
     border-radius: 6%;
     margin: auto;
     padding: 30px;
@@ -108,3 +109,23 @@ input[type="radio"]:checked + label {
       Thank You Card
 -------------------------*/
 
+.thanks-card {
+    text-align: center;
+    padding: 15px 0;
+}
+
+.thanks-img {
+    display: block;
+    margin: auto;
+}
+
+.selected-rating {
+    display: inline-block;
+    color:hsl(25, 97%, 53%);
+    background-color:hsl(213, 19%, 18%);
+    height: 2rem;
+    line-height: 2rem;
+    border-radius: 25px;
+    padding: 0 20px;
+    margin: 30px 0 10px 0;
+}

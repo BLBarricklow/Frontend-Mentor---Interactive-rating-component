@@ -19,9 +19,9 @@
 </head>
 <body>
 <main>
-  <section class="card-body">
+  <section class="card-body" >
     <!-- Rating state start -->
-    <section id="rating-card" >
+    <section id="rating-card"  class="hidden">
       <div class="star-bubble">
         <img src="images/icon-star.svg" alt="">
       </div>
@@ -61,10 +61,12 @@
     <!-- Rating state end -->
 
     <!-- Thank you state start -->
-    <section id="thanks-card" class="hidden">
+    <!-- DON'T FORGET TO SWITCH HIDDEN BACK FROM REVIEW CARD -->
+    <section id="thanks-card" class="thanks-card">
       
-      <img src="images/illustration-thank-you.svg" alt="">
-      <div>You selected <!-- Add rating here --> out of 5</div>
+      <img class="thanks-img" src="images/illustration-thank-you.svg" alt="">
+
+      <div class="selected-rating">You selected <!-- Add rating here --> out of 5</div>
 
       <h2>Thank you!</h2>
 
