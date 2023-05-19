@@ -5,4 +5,5 @@ function hiddenToggle() {
     document.querySelector('#radio-value').innerText = (radioNum);
     document.querySelector('#rating-card').classList.toggle('hidden');
     document.querySelector('#thanks-card').classList.toggle('hidden');
+    
 }
