@@ -25,7 +25,7 @@ main {
     /* background-color: #1f2630; */
     background-color: hsl(215, 23%, 14%);
     width: 425px;
-    height: 425px;
+    height: 415px;
     border-radius: 6%;
     margin: auto;
     padding: 30px;
@@ -61,7 +61,7 @@ button {
     margin: auto;
     margin-top: 30px;
     appearance:none;
-    height: 50px;
+    height: 45px;
     width: 350px;
     border:none;
     border-radius: 50px;
