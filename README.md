@@ -54,7 +54,7 @@ I need to continue improving my CSS understanding. Focusing on more simple and f
 
 ## Author
 
-- Website - [Add your name here](https://blbarricklow.netlify.app/)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/BLBarricklow)
-- Twitter - [@yourusername](https://www.twitter.com/blbarricklow)
+- Website - [My portfolio](https://blbarricklow.netlify.app/)
+- Frontend Mentor - [@BLBarricklow](https://www.frontendmentor.io/profile/BLBarricklow)
+- Twitter - [@BLBarricklow](https://www.twitter.com/blbarricklow)
 
